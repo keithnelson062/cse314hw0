@@ -1,6 +1,8 @@
 # Environment Setup
 ***
-Follow these steps to get a working Python environment going that should prepare you for the programming assignments in this course. These are suggestions to get you started -- you may use your own environment setups if you are more familiar with them (i.e. Anaconda distribution, pure-Windows setups, etc.). If you are using your own environment, please still submit this assignment to test our workflows. If following this tutorial causes errors at any step of the process, please [open an issue](https://github.com/wustl-data/environment-setup/issues/new) -- it is likely other students are experiencing the same problem as well. Obviously, you may skip any steps for which you already have the software installed.
+Follow these steps to get a working Python environment going that should prepare you for the programming assignments in this course. These are suggestions to get you started -- you may use your own environment setups if you are more familiar with them (i.e. Anaconda distribution, pure-Windows setups, etc.). If you are confident using your own environment, you may skip to [Clone This Repository](#clone-this-repository) to test out our workflow. 
+
+If following this tutorial causes errors at any step of the process, please [open an issue](https://github.com/wustl-data/environment-setup/issues/new) -- it is likely other students are experiencing the same problem as well. Obviously, you may skip any steps for which you already have the software installed.
 
 ## Windows Users Only - WSL installation
 I prefer using the Windows Subsystem for Linux (WSL), which allows us to use a fully-operational Ubuntu operating system within Windows. In addition to the added stability of using Ubuntu over Windows, we get to use a Unix-style command-line interface (`bash` by default) which matches those commonly found in various software tutorials and installations.
