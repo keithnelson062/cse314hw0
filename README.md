@@ -66,7 +66,7 @@ $ git clone <your-repo-url>
 
 Now `cd` into your new folder:
 ```bash
-$ cd hw0-environment
+$ cd <your-repo-name>
 ```
 
 ## VS Code IDE
