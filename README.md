@@ -129,6 +129,6 @@ $ git push
 ```
 Behind the scenes, this runs `git push origin main` by default-- `origin` specifies which _remote_ repository you would like to push to, while `main` specifies which branch you would like to push.
 
-GitHub will now autograde your assignment; check it out and correct any changes you need to make before re-pushing.
+I'm still figuring out some things with the autograder/feedback, so hold tight on those results if you haven't heard otherwise from me.
 
 Congrats on finishing Homework 0!!! You've got the boring stuff out of the way!!!
