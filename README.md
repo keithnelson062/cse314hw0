@@ -48,7 +48,9 @@ Especially if you have not done this before from your command line, you will lik
 
 
 ## Clone this Repository
-> A quick note about `bash` syntax: your "home" folder is designated by a `~`: that is why you see a `~` on your shell, indicating your _current directory_ (`cd`). To list the files in your current directory, type `ls` or `ls -a` (the `-a` flag shows hidden files designated with a `.` at the beginning of their filename e.g. `.bashrc` or `.bash_profile`, which contains code that executes each time you open your shell).
+<img width="164" alt="image" src="https://user-images.githubusercontent.com/21191435/150481693-a285d281-b340-4b5b-89b9-ad956cb8d73b.png">
+
+> A quick note about `bash` syntax: your "home" folder is designated by a `~`; your shell prompt usually indicates your _current directory_ (`cd`) relative to this home folder. To list the files in your current directory, type `ls` or `ls -a` (the `-a` flag shows hidden files designated with a `.` at the beginning of their filename. For example, `~/.bashrc` (Linux) or `~/.bash_profile` (Mac) are hidden files that contain code which executes each time you open your shell).
 
 From your home directory or a directory of your choosing (`~/code/` is a common choice), make a directory for this class:
 `mkdir cse314 && cd cse314`
@@ -91,7 +93,7 @@ You should now see your activated virtualenv on your command line next to your s
 Using your IDE (or a bash command if you're feeling adventurous), create a file called `hw0.py`.
 
 ## Commit your changes
-You made a successful change to your repository, so it's time to commit your changes. As we progress, you may skip some of these smaller steps between commits, but it's better to make too many commits now and get in the habit of performing them often.
+You made a successful change to your repository, so it's time to commit your changes. As we progress, you may skip some of these smaller meaningless commits between steps, but it's better to make too many commits now and get in the habit of performing them often.
 
 1. Check on your git status:
   ```bash
@@ -117,7 +119,7 @@ You made a successful change to your repository, so it's time to commit your cha
  The dependencies you installed with Poetry included a neat package that generates fake data called `Faker`. Let's use this code to make a `.csv` file full of fake information.
  
  1. Open `hw0.py`
- 2. Skim the `Faker` documentation and write a script that generates 1000 unique first names. Seed the data with your student ID. 
+ 2. Skim the [Faker documentation](https://faker.readthedocs.io/en/master/) and write a script that generates 1000 unique first names. Seed the data with your student ID. 
  3. Commit your code.
  4. Now, add some code that creates a file named `fake_data.csv`. This CSV file should contain a column for fake first names, last names, addresses, and phone numbers. I suggest using Python's built-in `csv` module or installing Pandas and using the `.to_csv` function. The `csv` route would be quicker, easier and more "Pythonic." On the other hand, now is as good of a time as any to start getting acquainted with Pandas if you are not already familiar.  Commit your code again -- I expect at least two commits out of this step.
 
