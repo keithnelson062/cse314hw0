@@ -122,6 +122,7 @@ You made a successful change to your repository, so it's time to commit your cha
  2. Skim the [Faker documentation](https://faker.readthedocs.io/en/master/) and write a script that generates 1000 unique first names. Seed the data with your student ID. 
  3. Commit your code.
  4. Now, add some code that creates a file named `fake_data.csv`. This CSV file should contain a column for fake first names, last names, addresses, and phone numbers. I suggest using Python's built-in `csv` module or installing Pandas and using the `.to_csv` function. The `csv` route would be quicker, easier and more "Pythonic." On the other hand, now is as good of a time as any to start getting acquainted with Pandas if you are not already familiar.  Commit your code again -- I expect at least two commits out of this step.
+ 5. As a reminder, it's good practice to keep your data out of version control. I will be checking your scripts, not your data files! Add `fake_data.csv` to your `.gitignore`.
 
 ## Submit your code for grading
 Your code is ready for grading!
