@@ -26,7 +26,13 @@ $ sudo apt update && sudo apt upgrade
 ```bash
 $ curl https://pyenv.run | bash
 ```
-If that fails, try the [manual installation process](https://github.com/pyenv/pyenv#installation) using the directions for your OS (WSL users, use the "GitHub Checkout" instructions for Ubuntu).
+> WSL users may see a warning about adding `pyenv` to the load path.  If you see this warning, run:
+> ```bash
+> $ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+> ```
+> which adds a pyenv initialization command to your `.bashrc` file.
+
+If the automatic installer fails, try the [manual installation process](https://github.com/pyenv/pyenv#installation) using the directions for your OS (WSL users, use the "GitHub Checkout" instructions for Ubuntu).
 
 Install Python version 3.9.6 -- this is the latest version available on Pyenv as of the creation of this document and will be the Python version we use throughout this course.
 ```bash
