@@ -138,6 +138,16 @@ $ git push
 ```
 Behind the scenes, this runs `git push origin main` by default-- `origin` specifies which _remote_ repository you would like to push to, while `main` specifies which branch you would like to push.
 
-I'm still figuring out some things with the autograder/feedback, so hold tight on those results if you haven't heard otherwise from me.
+Please submit your assignment to Gradescope using the link found on Canvas -- it looks like a few of you have already added the course on Gradescope so hopefully there are no issues finding the link. You may submit as many times as you would like up to the due date.
 
+To simplify things a little for hw0, the checks only make sure that you
+
+have a script called "hw0.py" that creates a file called "fake_data.csv" when ran as a script.
+the CSV (generated from step 1) contains 1000 rows of data
+the CSV has four columns
+These are all checked in one test that awards 10 fake points.
+
+Future assignments will have more stringent checks but this will do for now.
+
+Please email me if you think the Autograder is incorrectly grading your submissions.
 Congrats on finishing Homework 0!!! You've got the boring stuff out of the way!!!
