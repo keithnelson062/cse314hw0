@@ -43,7 +43,7 @@ You may set the global Python version as 3.9.6 or establish this version individ
 ## Poetry
 Now, install [poetry](https://python-poetry.org/docs/master/#installation):
 ```bash
-$ curl -sSL https://install.python-poetry.org | python3 -
+$ curl -sSL https://install.python-poetry.org | python -
 ```
 Poetry will manage both your dependencies and your virtual environments. If you don't know what this means, please [open an issue](https://github.com/wustl-data/environment-setup/issues/new) for discussion.
 
