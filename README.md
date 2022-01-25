@@ -142,9 +142,10 @@ Please submit your assignment to Gradescope using the link found on Canvas -- it
 
 To simplify things a little for hw0, the checks only make sure that you
 
-have a script called "hw0.py" that creates a file called "fake_data.csv" when ran as a script.
-the CSV (generated from step 1) contains 1000 rows of data
-the CSV has four columns
+- have a script called "hw0.py" that creates a file called "fake_data.csv" when ran as a script.
+- the CSV (generated from step 1) contains 1000 rows of data
+- the CSV has four columns
+
 These are all checked in one test that awards 10 fake points.
 
 Future assignments will have more stringent checks but this will do for now.
