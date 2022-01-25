@@ -151,4 +151,4 @@ These are all checked in one test that awards 10 fake points.
 Future assignments will have more stringent checks but this will do for now.
 
 Please email me if you think the Autograder is incorrectly grading your submissions.
-Congrats on finishing Homework 0!!! You've got the boring stuff out of the way!!!
+Congrats on finishing Homework 0!!! You've got the boring (but difficult) stuff out of the way!!!
